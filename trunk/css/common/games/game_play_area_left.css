@@ -1,0 +1,238 @@
+body {
+	font-size: 12px;
+	line-height: 24px;
+	color: #ffbf74;
+	font-family: Tahoma;
+	background: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.logo {
+	height: 60px;
+	width: 120px;
+	margin: 10px auto;
+	background: green;
+}
+
+.op-list {
+	margin: 10px auto;
+	width: 115px;
+}
+
+.op-list li {
+	padding-top: 3px;
+}
+
+.op-list li a {
+	height: 25px;
+	width: 113px;
+	display: block;
+}
+
+.op-list-style-1 .op-list li a {
+	background-image:
+		url(http://www.97ng.com/images/game_play_area/sidebar/toolbar/op-list/style_1/game_play_area_btns.png);
+}
+
+.op-list .czzx {
+	background-position: left 0px;
+}
+
+.op-list .czzx:hover {
+	background-position: right 0px;
+}
+
+.op-list .zxkf {
+	background-position: left -249px;
+}
+
+.op-list .zxkf:hover {
+	background-position: right -249px;
+}
+
+.op-list .lqxsk {
+	background-position: left -48px;
+}
+
+.op-list .lqxsk:hover {
+	background-position: right -48px;
+}
+
+.op-list .viplb {
+	background-position: left -73px;
+}
+
+.op-list .viplb:hover {
+	background-position: right -73px;
+}
+
+.op-list .vipjs {
+	background-position: left -98px;
+}
+
+.op-list .vipjs:hover {
+	background-position: right -98px;
+}
+
+.op-list .gfwz {
+	background-position: left -124px;
+}
+
+.op-list .gfwz:hover {
+	background-position: right -124px;
+}
+
+.op-list .shouc {
+	background-position: left -149px;
+}
+
+.op-list .shouc:hover {
+	background-position: right -149px;
+}
+
+.op-list .zdyzm {
+	background-position: left -174px;
+}
+
+.op-list .zdyzm:hover {
+	background-position: right -174px;
+}
+
+.op-list .tcyx {
+	background-position: left -199px;
+}
+
+.op-list .tcyx:hover {
+	background-position: right -199px;
+}
+
+.op-list .gzlq {
+	background-position: left -199px;
+}
+
+.op-list .gzlq:hover {
+	background-position: right -199px;
+}
+
+.op-list .fllq {
+	background-position: left -224px;
+}
+
+.op-list .fllq:hover {
+	background-position: right -224px;
+}
+
+.op-list .wdqx {
+	background-position: left -274px;
+}
+
+.op-list .wdqx:hover {
+	background-position: right -274px;
+}
+
+.op-list .gfsy {
+	background-position: left -305px;
+}
+
+.op-list .gfsy:hover {
+	background-position: right -305px;
+}
+
+.cool-list {
+	margin: 20px auto;
+	width: 120px;
+}
+
+.cool-list .jchd h2 {
+	background-position: 0 0;
+}
+
+.cool-list .yxgl h2 {
+	background-position: 0 -30px;
+}
+
+.cool-list h2 {
+	background-image:
+		url(http://www.97ng.com/images/game_play_area/sidebar/toolbar/cool-list/style_1/list-title.png);
+	background-repeat: no-repeat;
+}
+
+.cool-list h2 {
+	height: 30px;
+	text-indent: -999em;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.cool-list .menu {
+	
+}
+
+.cool-list .menu .menu-hd {
+	background:
+		url(http://www.97ng.com/images/game_play_area/sidebar/toolbar/cool-list/style_1/list-hd.jpg)
+		0 0 no-repeat;
+}
+
+.cool-list .menu .menu-hd,.cool-list .menu .menu-ft {
+	height: 10px;
+	overflow: hidden;
+}
+
+.cool-list .menu .menu-bd {
+	text-align: center;
+	background:
+		url(http://www.97ng.com/images/game_play_area/sidebar/toolbar/cool-list/style_1/list-bd.jpg)
+		0 0 repeat-y;
+}
+
+.cool-list .menu .menu-ft {
+	background:
+		url(http://www.97ng.com/images/game_play_area/sidebar/toolbar/cool-list/style_1/list-ft.jpg)
+		0 0 no-repeat;
+}
+
+.tool-box-style1,.cool-list .menu a {
+	color: #d1e2b2;
+	text-decoration: none;
+}
+
+.cool-list .menu a:hover {
+	text-decoration: underline;
+}
+
+.recommend-game-wrap {
+	width: 115px;
+	margin: 30px auto;
+}
+
+.recommend-game-wrap .item {
+	position: relative;
+	margin-bottom: 5px;
+	height: 30px;
+}
+
+.recommend-game-wrap .img {
+	width: 30px;
+	float: left;
+}
+
+.recommend-game-wrap .info {
+	margin-left: 3px;
+	float: left;
+	bottom: 0px;
+	background: black;
+	color: white;
+	width: 80px;
+	filter: Alpha(Opacity =   80);
+	opacity: 0.8;
+}
+
+.recommend-game-wrap .item a {
+	color: white;
+}

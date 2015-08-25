@@ -1,0 +1,409 @@
+.login_box {
+	width: 240px;
+	height: 180px;
+	padding-top: 10px;
+	background: url(http://www.97ng.com/images/tps/i1/login-bg.png) 0px 0px;
+}
+
+.login_box_bg2 {
+	background: url(http://www.97ng.com/images/tps/i1/login-bg.png) 239px
+		0px;
+}
+
+.login_box_bg3 {
+	background: url(http://www.97ng.com/images/tps/i1/login_box_bg2.png) 0px
+		0px;
+}
+
+.login_box_200 {
+	width: 200px;
+}
+
+.login_box_218 {
+	width: 218px;
+}
+
+.login_box_212 {
+	width: 212px;
+}
+
+.login_box_190 {
+	width: 190px;
+}
+
+.login_box_268 {
+	width: 267px;
+}
+
+.login_box_227 {
+	width: 227px;
+}
+
+.login_box_282 {
+	width: 282px;
+}
+
+.login_box .W_login_form {
+	width: 220px;
+	margin: 0px auto 0;
+}
+
+.login_box_200 .W_login_form {
+	width: 190px;
+	margin: 0px auto 0;
+}
+
+.login_box_218 .W_login_form {
+	width: 190px;
+	margin: 0px auto 0;
+}
+
+.login_box_212 .W_login_form {
+	width: 190px;
+	margin: 0px auto 0;
+}
+
+.login_box_190 .W_login_form {
+	width: 180px;
+	margin: 0px auto 0;
+}
+
+.login_box_268 .W_login_form {
+	width: 225px;
+	margin: 0px auto 0;
+}
+
+.login_box_227 .W_login_form {
+	width: 207px;
+	margin: 0px auto 0;
+}
+
+.login_box_282 .W_login_form {
+	width: 242px;
+	margin: 0px auto 0;
+}
+
+.login_box .W_login_form .info_list {
+	margin: 0 0 15px;
+	line-height: 30px;
+}
+
+.login_box .W_login_form .link_list {
+	margin: 0 0 5px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.login_box .W_login_form .btn_list {
+	margin: 0 0 5px;
+	line-height: 30px;
+}
+
+.login_box .W_login_form .info_list .icon_ask {
+	vertical-align: middle;
+	margin-left: 3px;
+}
+
+.login_box .W_login_form .username,.login_box .W_login_form .password {
+	width: 175px;
+	padding-left: 39px;
+	padding-right: 4px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	height: 28px;
+	vertical-align: middle;
+	color: #808080;
+	-webkit-box-shadow: 1px 1px 1px 0px #eaeaea inset;
+	-moz-box-shadow: 1px 1px 1px 0px #eaeaea inset;
+	box-shadow: 1px 1px 1px 0px #eaeaea inset;
+	background: white;
+	background-image:
+		url("http://www.97ng.com/images/tps/i1/form_login.png");
+	background-repeat: no-repeat;
+}
+
+.login_box_200 .W_login_form .username,.login_box_200 .W_login_form .password
+	{
+	width: 145px;
+}
+
+.login_box_218 .W_login_form .username,.login_box_218 .W_login_form .password
+	{
+	width: 145px;
+}
+
+.login_box_212 .W_login_form .username,.login_box_212 .W_login_form .password
+	{
+	width: 145px;
+}
+
+.login_box_190 .W_login_form .username,.login_box_190 .W_login_form .password
+	{
+	width: 135px;
+}
+
+.login_box_268 .W_login_form .username,.login_box_268 .W_login_form .password
+	{
+	width: 180px;
+}
+
+.login_box_227 .W_login_form .username,.login_box_227 .W_login_form .password
+	{
+	width: 160px;
+}
+
+.login_box_282 .W_login_form .username,.login_box_282 .W_login_form .password
+	{
+	width: 190px;
+}
+
+.login_box .W_login_form .username .W_input,.login_box .W_login_form .password .W_input,.login_box .W_login_form .username .W_input_focus,.login_box .W_login_form .username .W_input:focus,.login_box .W_login_form .username .W_inputStp:focus,.login_box .W_login_form .password .W_input_focus,.login_box .W_login_form .password .W_input:focus,.login_box .W_login_form .password .W_inputStp:focus
+	{
+	padding-left: 0;
+	-webkit-box-shadow: 0 0 #fff;
+	-moz-box-shadow: 0 0 #fff;
+	box-shadow: 0 0 #fff;
+	border: 1px solid transparent;
+	border-color: transparent !important;
+	_border: none;
+	outline-style: none;
+}
+
+.login_box .W_login_form .password {
+	background-position: 0 -50px;
+}
+
+.login_box .W_login_form .W_input_focus2 {
+	border-color: #FFB941 !important;
+	-webkit-box-shadow: 1px 1px 1px 0px #ddd inset;
+	-moz-box-shadow: 1px 1px 1px 0px #ddd inset;
+	box-shadow: 1px 1px 1px 0px #ddd inset;
+}
+
+.login_box .W_login_form .W_input_focus2 .W_input {
+	color: #333;
+}
+
+.login_box .W_login_form .W_input {
+	width: 165px;
+	padding-left: 39px;
+	padding-right: 5px;
+}
+
+.login_box .W_login_form .username input,.W_login_form .password input {
+	width: 165px;
+	height: 28px;
+	background: none;
+	color: #808080;
+	height: 20px\9;
+	padding-top: 4px\9;
+	_padding-top: 5px;
+	border: 1px solid transparent;
+	line-height: 19px\9;
+	*line-height: 18px\9;
+	_border: none;
+}
+
+.login_box .W_login_form .username input {
+	height: 19px\9;
+}
+
+.login_box .W_login_form .password input {
+	height: 19px\9;
+}
+
+.login_box a {
+	color: #FF8400;
+	/* TEXT-DECORATION: none; */
+}
+
+.login_box a:link {
+	color: #FF8400;
+}
+
+.login_box a:visited {
+	color: #FF8400;
+}
+
+.login_box a:hover,a:active,a:focus {
+	color: #FF8400;
+}
+
+.login_box .site-nav-pipe {
+	padding: 0 5px;
+	font-style: normal;
+	color: #ddd
+}
+
+.login_box .main_pannel {
+	left: 0;
+	top: 0;
+	padding: 0px 8px 8px 8px;
+	line-height: normal;
+	/* border: 1px solid #EEE;
+	background: white; */
+}
+
+.login_box .user-avatar {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+
+.login_box .user-info {
+	height: 80px;
+	overflow: hidden;
+}
+
+.login_box .user-info .user-operate {
+	text-align: right;
+	padding-right: 5px;
+	margin-bottom: 5px;
+}
+
+.login_box .user-info p {
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.login_box #ng_g_login_button {
+	width: 182px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.login_box_200 #ng_g_login_button {
+	width: 152px;
+}
+
+.login_box_218 #ng_g_login_button {
+	width: 152px;
+}
+
+.login_box_212 #ng_g_login_button {
+	width: 152px;
+}
+
+.login_box_190 #ng_g_login_button {
+	width: 142px;
+}
+
+.login_box_268 #ng_g_login_button {
+	width: 188px;
+}
+
+.login_box_227 #ng_g_login_button {
+	width: 165px;
+}
+
+.login_box_282 #ng_g_login_button {
+	width: 198px;
+}
+
+.login_box .my_game_list_box {
+	padding-top: 5px;
+}
+
+.login_box .my_game_list_box h2 {
+	margin: 0px 0px 5px 10px;
+	color: #fff;
+}
+
+.login_box .my_game_list_box .items {
+	width: 225px;
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.login_box .my_game_list_box .item {
+	padding-left: 5px;
+	width: 214px;
+	height: 22px;
+	width: 214px;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 0 5px;
+	background: url(http://www.97ng.com/images/tps/i4/jb_bar_3.png)
+		no-repeat;
+	margin: 0 0 6px;
+}
+
+.login_box_bg3 .item {
+	background: url(http://www.97ng.com/images/tps/i4/jb_bar_2.png)
+		no-repeat !important;
+}
+
+.login_box .my_game_list_box a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.login_box .my_game_list_box a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.login_box .my_game_list_box a:hover,.login_box .my_game_list_box a:active
+	{
+	color: white;
+	text-decoration: underline;
+}
+
+.login_box_p .my_game_list_box h2 {
+	margin: 0px 0px 5px 10px;
+	color: gray;
+}
+
+.login_box_p .my_game_list_box a:link {
+	color: gray;
+	text-decoration: none;
+}
+
+.login_box_p .my_game_list_box a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+.login_box_p .my_game_list_box a:hover,.login_box_p .my_game_list_box a:active
+	{
+	color: gray;
+	text-decoration: underline;
+}
+
+.login_box .my_game_list_box .item a.game-name {
+	display: inline;
+	width: 100px;
+	font-weight: 700;
+	float: left;
+}
+
+.login_box .my_game_list_box .item a.server-name {
+	display: inline;
+	width: 100px;
+	font-weight: 500;
+	float: left;
+}
+
+.login_box .top_bar {
+	margin-top: -10px;
+	height: 30px;
+	wdith: 250px;
+	margin-bottom: 20px;
+	/*background: url(/images/tps/i4/ngzh.jpg) center;*/
+	padding-left:5px;
+	color: #666;
+	border-bottom:2px solid darkorange;
+}
+.login_box .top_bar h3{
+	padding-top:8px;
+	font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体";
+	font-size: 15px;	
+}
+.login_box .top_bar_2 {
+	margin-top: -10px;
+	height: 40px;
+	wdith: 250px;
+	margin-bottom: 20px;
+	background: url(/images/tps/i4/ngzh.jpg) center;
+}

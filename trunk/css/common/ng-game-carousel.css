@@ -1,0 +1,78 @@
+#ng_game_carousel_box {
+	position: relative;
+	width: 500px;
+	height: 260px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+#ng_game_carousel_box .ks-switchable-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 99;
+}
+
+#ng_game_carousel_box .ks-switchable-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	margin-left: 3px;
+	background-color: #FCF2CF;
+	border: 1px solid #F47500;
+	color: #D94B01;
+	text-align: center;
+	cursor: pointer;
+	list-style: none;
+}
+
+#ng_game_carousel_box .ks-switchable-nav li.ks-active {
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	margin-top: -1px;
+	color: #FFF;
+	background-color: #FFB442;
+	font-weight: bold;
+}
+
+#ng_game_carousel_box .ks-switchable-content {
+	margin: 0;
+	padding: 0;
+}
+
+#ng_game_carousel_box .ks-switchable-content li {
+	height: 260px;
+	width: 960px;
+	overflow: hidden;
+	margin: 0;
+}
+
+#ng_game_carousel_box .ks-switchable-nav li,#ng_game_carousel_box .ks-switchable-trigger-content
+	{
+	position: relative;
+}
+
+#ng_game_carousel_box .ks-switchable-trigger-mask {
+	position: absolute;
+	right: 0;
+	width: 18px;
+	height: 18px;
+	background-color: #FF9415;
+	visibility: hidden
+}
+
+#ng_game_carousel_box .ks-active .ks-switchable-trigger-mask {
+	visibility: visible
+}
+
+.ks-switchable-panel-internal21 {
+	height: 100%
+}

@@ -1,0 +1,209 @@
+/**通用模块1**/
+.m {
+	
+}
+
+.m .mt {
+	border-bottom: 2px solid darkorange;
+	overflow: hidden;
+	position: relative;
+}
+
+.m .mt h2 {
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	height: 30px;
+}
+
+.m .mt .gc-t-cn,.m .mt .gc-t-en {
+	float: left;
+	height: 30px;
+	line-height: 999px;
+	overflow: hidden;
+}
+
+.m .mt .gc-t-cn {
+	margin-right: 7px;
+}
+
+.m .mt .gc-t-en {
+	width: 164px;
+}
+
+.m .mt .gc-t-cn,.m .mt .gc-t-en {
+	background-image: url(/images/tps/i3/moudle-title-bars.png);
+	background-repeat: no-repeat;
+}
+
+/**通用模块2**/
+.ng-module-default {
+	overflow: hidden;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+}
+
+.ng-module-default .ng-module-default-head {
+	border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color: darkorange;
+	/* font-weight: bold; */
+	height: 30px;
+	background: #fff;
+	/*
+    background-repeat:repeat-x; 
+    background-position:0px -2px; 
+    background-image:url('img/header_bg_3.jpg');*/
+}
+
+.ng-module-default-head .title {
+	font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体";
+	font-size: 16px;
+	float: left;
+	display: inline;
+	padding: 2px 0px 0px 5px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #000;
+}
+
+.ng-module-default-head .btn-more {
+	float: right;
+	display: inline;
+	padding-right: 20px;
+	padding-top: 10px;
+	line-height: 30px;
+	font-weight: normal;
+	margin-right: -10px;
+	color: #4C93C5;
+	/*background-image:url('items.png'); */
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: right -50px;
+}
+
+.ng-module-default-body-wrapper {
+	margin: 0px;
+	/*padding:10px;*/
+}
+
+
+/*开服*/
+.server-items {
+	padding: 0px 5px;
+}
+
+.server-items .item {
+	color: #666;
+	margin: 6px 0;
+	height: 22px;
+	overflow: hidden;
+	border-bottom: dashed 1px #CCC;
+}
+
+.server-items .item .game {
+	float: left;
+	width: 80px;
+	overflow: hidden;
+}
+
+.server-items .item .server {
+	float: left;
+	width: 80px;
+	overflow: hidden;
+}
+
+.server-items .item .time {
+	float: right;
+	width: 75px;
+}
+
+/*新闻公告*/
+.news-items {
+	padding: 5px 5px;
+}
+
+.news-items .item {
+	padding-left: 10px;
+	color: #666;
+	height: 24px;
+	line-height: 24px;
+	font-size: 13px;
+	overflow: hidden;
+	background: url(http://i0.sinaimg.cn/home/main/index2013/0403/icon.png)
+		no-repeat 0 -881px;
+		text-overflow:ellipsis;
+}
+
+.news-items .item .title {
+	float: left;
+	width: 220px;
+	overflow: hidden;
+	
+}
+
+/*服务模块*/
+.service-list-box {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.service-list-box a {
+	float: left;
+	width: 90px;
+	height: 90px;
+	margin-left: 20px;
+	text-align: center;
+	color: #333;
+}
+
+.service-list-box a span {
+	display: block;
+	line-height: 22px;
+	font-size: 12px;
+	font-family: simsun, tahoma, Arial;
+}
+
+
+.ng-m-box {
+	
+}
+
+.ng-m-box .box-hd {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FEFEFE),
+		to(#EDEDED) );
+	background-image: -webkit-linear-gradient(top, #FEFEFE, #EDEDED);
+	background-image: -moz-linear-gradient(top, #FEFEFE, #EDEDED);
+	background-image: -o-linear-gradient(top, #FEFEFE, #EDEDED);
+	background-image: -ms-linear-gradient(top, #FEFEFE, #EDEDED);
+	background-image: linear-gradient(top, #FEFEFE, #EDEDED);
+}
+
+.ng-m-box .box-hd {
+	height: 29px;
+	line-height: 29px;
+	padding: 0 9px;
+	font-size: 14px;
+	border-left: 1px solid #CFCFCF;
+	border-right: 1px solid #CFCFCF;
+}
+
+.ng-m-box .box-hd .box-hd-title {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ng-m-box .box-hd .box-hd-more {
+	float: right;
+}
+
+.ng-m-box .box-hd .box-hd-more,.ng-m-box .box-hd .box-hd-more a,.ng-m-box .box-hd .box-hd-more a:visited {
+	color: #666;
+}
+
+.ng-m-box .box-bd {
+	border: 1px solid #CFCFCF;
+}

@@ -1,0 +1,97 @@
+.i-item {
+	padding-left: 135px;
+	padding-bottom: 10px;
+	zoom: 1;
+	position: relative;
+}
+
+.item-label {
+	display: inline;
+	float: left;
+	width: 130px;
+	margin-left: -135px;
+	text-align: right;
+	height: 26px;
+	line-height: 26px;
+	zoom: 1;
+}
+
+.item-label i {
+	color: red;
+	font-style: normal;
+}
+
+.i-text {
+	border: 1px solid #afafaf;
+	padding: 3px;
+	width: 200px;
+	height: 18px;
+	line-height: 18px;
+	vertical-align: middle;
+}
+
+.i-text-short {
+	width: 65px;
+}
+
+.msg {
+	padding: 4px 4px 4px 24px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #404040;
+	background-color: #FFFFE5;
+	border: 1px solid #FFCC7F;
+	overflow: hidden;
+	zoom: 1;
+	display: inline-block;
+	zoom: 1;
+}
+
+.msg,.msg-weak {
+	vertical-align: middle;
+}
+
+.msg i,.msg-weak i {
+	display: inline;
+	float: left;
+	margin-left: -20px;
+	width: 16px;
+	height: 16px;
+	background:
+		url(http://img01.taobaocdn.com/tps/i1/T1g3uoXdpQXXXXXXXX-60-280.png)
+		no-repeat 0 -160px;
+}
+
+.msg-error i {
+	background-position: 0 0;
+}
+
+.msg-cnt {
+	font-size: 12px;
+}
+
+.ks-combobox {
+	display: inline-block;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.ks-combobox-input-wrap {
+	overflow: hidden;
+	vertical-align: middle;
+	position: relative;
+}
+
+.i-ta {
+	display: block;
+	width: 420px;
+	height: 48px;
+	margin: 0;
+	border: 1px solid #afafaf;
+	padding: 3px;
+	font-size: 12px;
+}
+
+.hide {
+	display: none;
+}

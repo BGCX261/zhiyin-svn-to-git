@@ -1,0 +1,113 @@
+.g-g-pagination .page-prev,.g-pagination .page-start,.g-pagination .page-next,.g-pagination .page-end,.g-pagination .page-skip button
+	{
+	background:
+		url(imgs/T1C.png)
+		no-repeat
+}
+
+.g-pagination {
+	overflow: hidden;
+	padding-top: 15px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 12px
+}
+
+.g-pagination-tab {
+	margin-bottom: 20px
+}
+
+.g-pagination a,.g-pagination .page-info,.g-pagination .page-start,.g-pagination .page-prev,.g-pagination .page-cur,.g-pagination .page-end,.g-pagination .page-break,.g-pagination .page-skip
+	{
+	display: inline-block;
+	min-width: 16px;
+	_width: 16px;
+	height: 24px;
+	margin: 0;
+	margin-right: 5px;
+	padding: 0 5px;
+	text-align: center;
+	vertical-align: top;
+	line-height: 24px;
+	white-space: nowrap;
+	font-family: Tahoma, SimSun, Arial
+}
+
+.g-pagination a,.g-pagination .page-info,.g-pagination .page-start,.g-pagination .page-prev,.g-pagination .page-cur,.g-pagination .page-end,.g-pagination .page-break
+	{
+	border: 1px solid #ccc
+}
+
+.g-pagination a:hover {
+	text-decoration: none;
+	border: 1px solid #fd6d01
+}
+
+.g-pagination .page-start,.g-pagination .page-prev,.g-pagination .page-next,.g-pagination .page-end
+	{
+	width: 36px
+}
+
+.g-pagination .page-start {
+	padding-left: 16px;
+	background-position: -70px -192px
+}
+
+.g-pagination .page-prev {
+	padding-left: 16px;
+	background-position: -80px -211px
+}
+
+.g-pagination .page-next {
+	padding-right: 16px;
+	background-position: -97px -211px
+}
+
+.g-pagination .page-end {
+	padding-right: 16px;
+	background-position: -88px -192px
+}
+
+.g-pagination .page-cur {
+	font-weight: bold;
+	color: #fd6d01;
+	background-color: #ffede1;
+	border: 1px solid #fd6d01
+}
+
+.g-pagination .page-break {
+	border: 0
+}
+
+.g-pagination .page-skip {
+	width: auto;
+	color: #666;
+	border: 0
+}
+
+.g-pagination .page-skip input {
+	width: 30px;
+	height: 18px;
+	margin: 0 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Tahoma, SimSun, Arial;
+	color: #000;
+	border: 1px solid #999
+}
+
+.g-pagination .page-skip button {
+	width: 42px;
+	height: 20px;
+	overflow: hidden;
+	margin: 0 0 0 5px;
+	text-indent: -9999px;
+	vertical-align: middle;
+	cursor: pointer;
+	background-position: 0 -179px;
+	border: 0 none
+}
+
+.g-pagination .page-skip button span {
+	display: none
+}

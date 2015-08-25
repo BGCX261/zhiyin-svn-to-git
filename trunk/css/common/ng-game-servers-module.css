@@ -1,0 +1,44 @@
+.ng-module-default {
+	overflow: hidden;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+}
+
+.ng-module-default .ng-module-default-head {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: darkorange;
+	height: 30px;
+}
+
+.ng-module-default-head .title {
+	font-family: "Microsoft YaHei", "微软雅黑", "SimHei", "黑体";
+	font-size: 16px;
+	float: left;
+	display: inline;
+	padding: 2px 0px 0px 5px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.ng-module-default-head .btn-more {
+	float: right;
+	display: inline;
+	padding-right: 20px;
+	padding-top: 10px;
+	line-height: 30px;
+	font-weight: normal;
+	margin-right: -10px;
+	color: #4C93C5;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: right -50px;
+}
+
+.ng-module-default-body-wrapper {
+	margin: 10px;
+}

@@ -1,0 +1,142 @@
+
+/*tabl for list*/
+table.list-table {
+	font: 12px Verdana, "宋体",Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border: 1px #DAE7F6 solid;
+	background-color: #FFF;
+	text-align: center;	
+}
+
+table.list-table tr {
+	height: 26px;
+	background: white;
+}
+
+table.list-table tr.h {
+	background: red;	
+}
+table.list-table tr.h_g {
+	background: #e0fcce;	
+}
+
+
+table.list-table th {
+	background: #EAF3FE;
+	border: #DAE7F6 solid;
+	border-width: 1px 1px 1px 1px;
+	color:#0484BD;
+		
+/* height: 29px;
+border-top: 1px solid #a2cbff;
+border-bottom: 1px solid #aec7e5;
+border-right: 1px solid #a2cbff;
+border-left: 1px solid #a2cbff;
+background: transparent url(/images/tps/i1/bg_thead_grade.png) repeat-x scroll 0 0; */
+}
+
+table.list-table td {
+	padding: 4px 3px;
+	border: 1px #DAE7F6 solid;
+}
+
+table.list-table tr.even {
+	background: #eee;
+	border-top: 1px solid silver;
+}
+
+table.list-table tr.odd {
+	background: white;
+	border-top: 1px solid silver;
+}
+
+
+/*tabl for list-blue*/
+table.pk5-table {
+	font: 12px Verdana, "宋体",Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border: 1px #DAE7F6 solid;
+	background-color: #FFF;
+	text-align: center;
+	font-size: 14px;
+}
+
+table.pk5-table th {
+	background: #EAF3FE;
+	border: #DAE7F6 solid;
+	border-width: 1px 1px 1px 1px;
+	color:#0484BD;
+}
+
+table.pk5-table td {
+	border: 1px #DAE7F6 solid;
+}
+
+table.pk5-table td.h {
+	color:#0484BD;
+}
+
+table.pk5-table td img {
+	vertical-align: middle;
+	margin: 2px 6px;
+}
+
+table.pk5-table tr {
+	height: 40px;
+	background: white;
+}
+
+table.pk5-table tr.even {
+	background: #eee;
+	border-top: 1px solid silver;
+}
+
+table.pk5-table tr.odd {
+	background: white;
+	border-top: 1px solid silver;
+}
+
+
+
+
+/*tabl for input*/
+table.input-table {
+	border-collapse: collapse;
+	border: 1px #F0E2B3 solid;
+	background-color: #FFFDF0;
+}
+
+table.input-table th {
+	background: #FFEDD1;
+	padding: 2px 2px;
+	border: #F0E2B3 solid;
+	border-width: 1px 1px 1px 1px;
+	font-family: "宋体";
+	font-size: 11pt;
+}
+
+table.input-table td {
+	font-family: "宋体";
+	font-size: 11pt;
+	padding: 4px 3px;
+	border: 1px #F0E2B3 solid;
+}
+
+table.input-table td.align-right {
+	text-align: right;
+}
+
+table.input-table tr {
+	height: 26px;
+	background: white;
+}
+
+table.input-table tr.even {
+	background: #eee;
+	border-top: 1px solid silver;
+}
+
+table.input-table tr.odd {
+	background: white;
+	border-top: 1px solid silver;
+}

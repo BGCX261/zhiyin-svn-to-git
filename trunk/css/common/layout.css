@@ -1,0 +1,164 @@
+/*---整体布局：头部，内容，尾部---*/
+/*---global container---*/
+#g_container {
+	width: 100%;
+	background: white;
+}
+
+/**---header---*/
+#head_container {
+	width: 100%;
+	overflow: hidden;
+}
+
+#logo_c_wrap {
+	margin: 0 auto;
+	width: 980px;
+	height: 90px;
+}
+
+#logo {
+	float: left;
+	width: 240px;
+	height: 90px;
+}
+
+#logo a {
+	display: block;
+	overflow: hidden;
+	height:80px;
+	margin-top: 5px;
+}
+
+#logo_c_r {
+	float: right;
+	width: 740px;
+	height: 80px;
+	z-index: 100;
+	margin-top:5px;
+	
+}
+
+#logo_c_r_search {
+	float: left;
+	width: 0px;
+	height: 80px;
+}
+
+#logo_c_r_links {
+	width: 740px;
+	float: right;
+	height: 80px;
+}
+
+/*---nav box---*/
+#main_cat_wrap {
+	width: 100%;
+	background: url(/images/tps/i1/nav_bg.jpg) repeat-x;
+	background:#F80;
+}
+
+.ng_g_cat {
+	margin: 0 auto;
+	width: 980px;
+	height: 40px;
+}
+
+.ng_g_cat ul {
+	height: 40px;
+}
+
+.ng_g_cat ul::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.ng_g_cat ul li {
+	position: relative;
+	float: left;
+	line-height: 40px;
+}
+
+.ng_g_cat ul li a {
+	position: relative;
+	line-height: 40px;
+	outline: 0;
+	color: white;
+	font-size: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0 16px;
+	float: left;
+	font-weight: bold;
+}
+
+.ng_g_cat ul li a:visited {
+	color: #fff
+}
+
+.ng_g_cat ul li a:hover {
+	background: #F60;
+	color: #fff;
+}
+
+.ng_g_cat ul li.on a {
+	background: #F60;
+	color: #fff;
+	background: #F60 url(/images/tps/i4/T1gZtUFhRbXXcgLmU-11-6.png) 50% 100% no-repeat;
+
+}
+
+.ng_g_cat ul li.on a:visited {
+	color: #fff
+}
+
+/**---main content---*/
+#main_container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.main_wrap {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/**---footer---**/
+#footer_container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.footer_wrap {
+	width: 980px;
+	margin: 10px auto;	
+	text-align: center;
+	color: #939393;
+	font-size: 12px;
+	border-top: 2px solid #f40
+}
+
+.footer_wrap p {
+	line-height: 25px;
+}
+
+.footer_wrap p a:link,.footer_wrap p a:visited {
+	color: #939393;
+	text-decoration: none;
+}
+
+.ng_g_cat ul li i.hot{
+	background: url(/images/tps/i2/T1lni5XhXXXXXXXXXX-9-14.gif) no-repeat;
+}
+
+.ng_g_cat ul li i {
+	position: absolute;
+	top: -2px;
+	right: 10px;
+	display: block;
+	width: 9px;
+	height: 14px;
+	overflow: hidden;
+}
+

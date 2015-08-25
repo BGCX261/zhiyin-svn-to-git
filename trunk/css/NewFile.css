@@ -1,0 +1,593 @@
+/* reset */
+html,body,ul,ol,li,dl,dt,dd,h1,h2,p {
+	margin: 0;
+	padding: 0;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+html,body {
+	height: 100%;
+}
+
+.fl {
+	float: left;
+	display: inline;
+}
+
+.fr {
+	float: right;
+	display: inline;
+} /* images */
+#header,#header .logo,#notice,#header .link-games li,#header .close {
+	background-image:
+		url(http://images.51wan.com/v2/toolbar/images/topbar.gif);
+	background-repeat: no-repeat;
+}
+
+#topbar-show,.toolbar-btnUnfold,.toolbar-help .service a,.toolbar-btn span
+	{
+	background-image:
+		url(http://images.51wan.com/v2/toolbar/images/toolbar24.png);
+	_background-image:
+		url(http://images.51wan.com/v2/toolbar/images/toolbar8.png);
+	background-repeat: no-repeat;
+} /* layout */
+.wrapper {
+	height: 100%;
+	overflow: hidden;
+	min-width: 990px;
+	width: auto !important;
+	width: 100%;
+	background-color: #000;
+}
+
+#wrapinner {
+	height: 100%;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+#toolbar {
+	float: left;
+	position: relative;
+	width: 140px;
+	height: 100%;
+	overflow: hidden;
+	font: 12px/24px '\u5b8b\u4f53';
+}
+
+#main {
+	margin-left: 140px;
+	height: 100%;
+} /* topbar */
+#header {
+	font: 12px/30px '\u5b8b\u4f53';
+}
+
+#header a {
+	color: #000;
+} /* info */
+#header .logo,#header .curr-server,#header .select-server {
+	margin-right: 5px;
+}
+
+#header .logo {
+	width: 115px;
+	height: 30px;
+	text-indent: -999em;
+	overflow: hidden;
+	background-position: 0 -31px;
+}
+
+#header .curr-server {
+	color: #F26522;
+}
+
+#header .curr-server:hover {
+	text-decoration: none;
+	cursor: text;
+}
+
+#header .select-server {
+	color: #007AD1;
+} /* notice */
+#notice {
+	width: 300px;
+	height: 30px;
+	overflow: hidden;
+	background-position: -100px -62px;
+}
+
+#notice ol {
+	padding-left: 20px;
+} /*new-games*/
+#header .new-games dt {
+	color: #479207;
+	font-weight: bold;
+}
+
+#header .new-games a {
+	margin: 7px 10px 7px 0;
+	height: 16px;
+	line-height: 16px;
+}
+
+#header .new-games a img {
+	margin-left: 3px;
+} /*link-games*/
+#header .link-games {
+	margin-right: 25px;
+}
+
+#header .link-games li {
+	padding-right: 8px;
+	margin-right: 7px;
+	background-position: right -111px;
+} /*close*/
+#header .close {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	width: 14px;
+	height: 14px;
+	background-position: -101px -92px;
+	cursor: pointer;
+} /* toolbar */ /* topbar-show */
+#topbar-show {
+	position: relative;
+	z-index: 1;
+	display: none;
+	width: 125px;
+	height: 30px;
+	margin: 0 auto;
+	background-position: -15px 0;
+	text-indent: -999em;
+	cursor: pointer;
+} /*toolbar-logo*/
+.toolbar-logo {
+	width: 140px;
+	overflow: hidden;
+}
+
+.toolbar-logo a {
+	display: block;
+	width: 125px;
+	margin: 10px auto 0;
+} /*toolbar-list*/
+.toolbar-list {
+	width: 120px;
+	margin: 15px 10px 0;
+}
+
+.toolbar-list h2 {
+	height: 30px;
+	text-indent: -999em;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.toolbar-list .menu {
+	display: none;
+}
+
+.toolbar-list .menu .menu-bd {
+	margin: -4px 0;
+	text-align: center;
+} /*toolbar-help*/
+.toolbar-help {
+	width: 140px;
+}
+
+.toolbar-help li a {
+	display: block;
+	margin: 15px auto 0;
+}
+
+.toolbar-help .service a {
+	width: 98px;
+	height: 62px;
+	background-position: -42px -31px;
+}
+
+.toolbar-help .home a {
+	width: 98px;
+	height: 60px;
+} /*toolbar-btn*/
+.toolbar-btn {
+	width: 15px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.toolbar-btn span {
+	cursor: pointer;
+}
+
+.toolbar-btnUnfold {
+	background-position: 0 0;
+	background-repeat: repeat-y;
+	_margin-right: -1px;
+}
+
+.toolbar-btn .pack {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -39px;
+	width: 25px;
+	height: 78px;
+	background-position: -115px -93px;
+}
+
+.toolbar-btn .unfold {
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -35px;
+	width: 15px;
+	height: 70px;
+	background-position: -125px -174px;
+} /* toolbar-style1 */
+.toolbar-style1 {
+	background-color: #031309;
+}
+
+.toolbar-style1,.toolbar-style1 .menu a {
+	color: #d1e2b2;
+}
+
+.toolbar-style1 .toolbar-list h2 {
+	background-image:
+		url(http://images.51wan.com/v2/toolbar/images/s1/title.jpg);
+	background-repeat: no-repeat;
+}
+
+.toolbar-style1 .menu {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s1/list-bd.jpg) 0 0
+		repeat-y;
+}
+
+.toolbar-style1 .menu .menu-hd,.toolbar-style1 .menu .menu-ft {
+	height: 10px;
+	overflow: hidden;
+}
+
+.toolbar-style1 .menu .menu-hd {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s1/list-hd.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style1 .menu .menu-ft {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s1/list-ft.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style1 .jchd h2 {
+	background-position: 0 0;
+}
+
+.toolbar-style1 .xszn h2 {
+	background-position: 0 -30px;
+}
+
+.toolbar-style1 .yxgl h2 {
+	background-position: 0 -60px;
+}
+
+.toolbar-style1 .wjxd h2 {
+	background-position: 0 -90px;
+}
+
+.toolbar-style1 .yxts h2 {
+	background-position: 0 -120px;
+} /* toolbar-style2 */
+.toolbar-style2 {
+	background-color: #04171b;
+}
+
+.toolbar-style2,.toolbar-style2 .menu a {
+	color: #d1e2b2;
+}
+
+.toolbar-style2 .toolbar-list h2 {
+	background-image:
+		url(http://images.51wan.com/v2/toolbar/images/s2/title.jpg);
+	background-repeat: no-repeat;
+}
+
+.toolbar-style2 .menu {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s2/list-bd.jpg) 0 0
+		repeat-y;
+}
+
+.toolbar-style2 .menu .menu-hd,.toolbar-style2 .menu .menu-ft {
+	height: 10px;
+	overflow: hidden;
+}
+
+.toolbar-style2 .menu .menu-hd {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s2/list-hd.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style2 .menu .menu-ft {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s2/list-ft.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style2 .jchd h2 {
+	background-position: 0 0;
+}
+
+.toolbar-style2 .xszn h2 {
+	background-position: 0 -30px;
+}
+
+.toolbar-style2 .yxgl h2 {
+	background-position: 0 -60px;
+}
+
+.toolbar-style2 .wjxd h2 {
+	background-position: 0 -90px;
+}
+
+.toolbar-style2 .yxts h2 {
+	background-position: 0 -120px;
+} /* toolbar-style3 */
+.toolbar-style3 {
+	background-color: #160605;
+}
+
+.toolbar-style3,.toolbar-style3 .menu a {
+	color: #f8df9b;
+}
+
+.toolbar-style3 .toolbar-list h2 {
+	background-image:
+		url(http://images.51wan.com/v2/toolbar/images/s3/title.jpg);
+	background-repeat: no-repeat;
+}
+
+.toolbar-style3 .menu {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s3/list-bd.jpg) 0 0
+		repeat-y;
+}
+
+.toolbar-style3 .menu .menu-hd,.toolbar-style3 .menu .menu-ft {
+	height: 10px;
+	overflow: hidden;
+}
+
+.toolbar-style3 .menu .menu-hd {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s3/list-hd.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style3 .menu .menu-ft {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s3/list-ft.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style3 .jchd h2 {
+	background-position: 0 0;
+}
+
+.toolbar-style3 .xszn h2 {
+	background-position: 0 -30px;
+}
+
+.toolbar-style3 .yxgl h2 {
+	background-position: 0 -60px;
+}
+
+.toolbar-style3 .wjxd h2 {
+	background-position: 0 -90px;
+}
+
+.toolbar-style3 .yxts h2 {
+	background-position: 0 -120px;
+} /* toolbar-style4 */
+.toolbar-style4 {
+	background-color: #130f09;
+}
+
+.toolbar-style4,.toolbar-style4 .menu a {
+	color: #b98f6a;
+}
+
+.toolbar-style4 .toolbar-list h2 {
+	background-image:
+		url(http://images.51wan.com/v2/toolbar/images/s4/title.jpg);
+	background-repeat: no-repeat;
+}
+
+.toolbar-style4 .menu {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s4/list-bd.jpg) 0 0
+		repeat-y;
+}
+
+.toolbar-style4 .menu .menu-hd,.toolbar-style4 .menu .menu-ft {
+	height: 10px;
+	overflow: hidden;
+}
+
+.toolbar-style4 .menu .menu-hd {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s4/list-hd.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style4 .menu .menu-ft {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s4/list-ft.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style4 .jchd h2 {
+	background-position: 0 0;
+}
+
+.toolbar-style4 .xszn h2 {
+	background-position: 0 -30px;
+}
+
+.toolbar-style4 .yxgl h2 {
+	background-position: 0 -60px;
+}
+
+.toolbar-style4 .wjxd h2 {
+	background-position: 0 -90px;
+}
+
+.toolbar-style4 .yxts h2 {
+	background-position: 0 -120px;
+} /* toolbar-style5 */
+.toolbar-style5 {
+	background-color: #1a0d07;
+}
+
+.toolbar-style5,.toolbar-style5 .menu a {
+	color: #deb29e;
+}
+
+.toolbar-style5 .toolbar-list h2 {
+	background-image:
+		url(http://images.51wan.com/v2/toolbar/images/s5/title.jpg);
+	background-repeat: no-repeat;
+}
+
+.toolbar-style5 .menu {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s5/list-bd.jpg) 0 0
+		repeat-y;
+}
+
+.toolbar-style5 .menu .menu-hd,.toolbar-style5 .menu .menu-ft {
+	height: 10px;
+	overflow: hidden;
+}
+
+.toolbar-style5 .menu .menu-hd {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s5/list-hd.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style5 .menu .menu-ft {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s5/list-ft.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style5 .jchd h2 {
+	background-position: 0 0;
+}
+
+.toolbar-style5 .xszn h2 {
+	background-position: 0 -30px;
+}
+
+.toolbar-style5 .yxgl h2 {
+	background-position: 0 -60px;
+}
+
+.toolbar-style5 .wjxd h2 {
+	background-position: 0 -90px;
+}
+
+.toolbar-style5 .yxts h2 {
+	background-position: 0 -120px;
+} /* toolbar-style6 */
+.toolbar-style6 {
+	background-color: #06111d;
+}
+
+.toolbar-style6,.toolbar-style6 .menu a {
+	color: #aedaff;
+}
+
+.toolbar-style6 .toolbar-list h2 {
+	background-image:
+		url(http://images.51wan.com/v2/toolbar/images/s6/title.jpg);
+	background-repeat: no-repeat;
+}
+
+.toolbar-style6 .menu {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s6/list-bd.jpg) 0 0
+		repeat-y;
+}
+
+.toolbar-style6 .menu .menu-hd,.toolbar-style6 .menu .menu-ft {
+	height: 10px;
+	overflow: hidden;
+}
+
+.toolbar-style6 .menu .menu-hd {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s6/list-hd.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style6 .menu .menu-ft {
+	background:
+		url(http://images.51wan.com/v2/toolbar/images/s6/list-ft.jpg) 0 0
+		no-repeat;
+}
+
+.toolbar-style6 .jchd h2 {
+	background-position: 0 0;
+}
+
+.toolbar-style6 .xszn h2 {
+	background-position: 0 -30px;
+}
+
+.toolbar-style6 .yxgl h2 {
+	background-position: 0 -60px;
+}
+
+.toolbar-style6 .wjxd h2 {
+	background-position: 0 -90px;
+}
+
+.toolbar-style6 .yxts h2 {
+	background-position: 0 -120px;
+}
